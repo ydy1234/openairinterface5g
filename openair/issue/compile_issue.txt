@@ -1,0 +1,12 @@
+1.Failed to connect to gist.github.com
+  method: add "192.30.253.119 gist.github.com" to /etc/hosts
+2.gnutls_handshake() failed GIT repository
+  method:
+     git config --global http.sslVerify false
+     git config --global http.sslVerify true 
+     vim ~/.gitconfig
+     add sslVersion = sslv3 to [httpd]
+3.cryptography requires setuptools 18.5 or newer, please update
+  method: pip install setuptools --upgrade
+4.Related compile website
+  https://blog.csdn.net/wxsdr/article/details/53691763
